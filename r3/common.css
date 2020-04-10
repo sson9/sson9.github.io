@@ -1,0 +1,164 @@
+@charset "UTF-8"
+    
+*{ margin:0; padding:0; }
+body, html { font-family:'Nanum Square', sans-serif;
+    width:100%; height:100%;  background: #333;margin: 0;padding: 0;}
+ul { list-style: none; }
+a { text-decoration: none; }    
+
+/*사이드 메뉴*/
+#left{float: left;width: 342px;height: 100%;position: fixed;top: 0px;left: 0;background: #fff;z-index: 10;}
+
+.logo{display: block;margin: 0 auto;;position: relative;top: 4em;}
+.menu{width: 100%;position: relative;left: 2.2em;display: block;}
+
+.menu a{color: #333;font-size: 23px;display: block;width: 100%;height: 30px;line-height: 30px;transition: 0.3s;;text-align: center;letter-spacing: 0.09em;font-family: 'Arimo', sans-serif;}
+
+.sc_data{margin: 0;padding: 0;}
+
+#gnb3 .menuFrame{margin-top: 7em;}
+#gnb3 li{padding: 8px;}
+#gnb3 a{overflow:hidden;width: 150px;font-family: 'Arimo', sans-serif;}
+#gnb3 a .en{font-weight: bold}
+#gnb3 a .ko{font-size: 21px;}
+#gnb3 a span{display: block;transition: 0.5s;margin-top: 0;}
+#gnb3 a:hover .en{margin-top: -30px;}
+#gnb3 a:hover .ko{color: #b94646;}
+
+.mail{width: 100%;height: 200px;background: #fff;position: relative;top: 7em;display: block;}
+.mail h2{display: block;text-align: center;font-size: 18.5px;margin-bottom: 1.5em;color: #666;}
+.mail input{width: 250px;margin: 0 auto;display: block;height: 23px;font-size: 15px;border: 1px solid #b7b7b7;background: #fff;padding: 5px;}
+.mail input:hover,.mail input:active{border: 2px solid #a23939}
+.mail button{width: 260px;margin: 0 auto;display: block;height: 32px;font-size: 15px;position: relative;top: 0.4em;border: 1px solid #b7b7b7;background: #f2f2f2;}
+.mail button:hover,.mail button:active{background: #a23939;color: #fff;}
+.mail p{width: 250px;border-bottom: 1px solid #e2e2e2;display: block;margin: 0 auto;position: relative;top: 2em;display: block;}
+.mail .sns{width: 250px;position: relative;clear: both;top: 2em}
+.mail li{float: left;width:62px;}
+.mail img{}
+
+#ft{display: block;width: 342px;position: fixed;bottom: 0;left: 0;z-index: 11;border-top: 1px solid #b5b5b5;}
+#fnb{clear: both; }
+#fnb li{float: left;width: 89px;}
+
+#fnb li img{width: 15px;height: 15px;position: relative;top: 0.15em;left: 0.15em;}
+#fnb li a{display: block;line-height: 20px;color: #333;text-align: center;}
+.copyright{padding: 15px;color: #000;font-size: 0.8rem;}
+.right{letter-spacing: -0.08em;margin-left: 2.2em;line-height: 19px;margin-top: 1.5em}
+.copy{padding-top: 2px;margin-left: 2.2em;}
+
+
+.con1{display: block;width: 1578px;height:100%;position: relative;;overflow: hidden;margin-left: 330px;}
+#main img{position: absolute;top: 0;left: 0;}
+.txt1{position: absolute;top: 500px;width: 100%;text-align:center;font-size: 2.3em;font-weight: bold;opacity: 0;color: #fff;text-shadow: 1px 1px 5px rgba(0,0,0,0.9)}
+.txt2{position: absolute;top: 500px;width: 100%;text-align: center;font-size: 4.9em;opacity: 0;color: #fff;font-weight: bold;text-shadow: 1px 1px 5px rgba(0,0,0,0.9)}
+.txt3{position: absolute;top: 900px;width: 100%;text-align: center;font-size: 1.5em;opacity: 0;;color: #fff;font-weight: bold;text-shadow: 1px 1px 5px rgba(0,0,0,0.8)}
+
+.con2{width: 1578px;height:100%;position: relative;overflow: hidden;margin-left: 330px;}
+
+.txt4{position: absolute;top: 338px;text-align:left;font-size: 2.9em;font-weight: bold;opacity: 1;color: #fff;text-shadow: 1px 1px 5px rgba(0,0,0,0.9);left: 4.2em}
+
+.txt5{position: absolute;top: 400px;text-align:left;font-size: 3.5em;font-weight: bold;opacity: 1;color: #fff;text-shadow: 1px 1px 5px rgba(0,0,0,0.9);left: 3.4em;letter-spacing: 0.04em;}
+
+.txt6{position: absolute;top: 580px;text-align:center;font-size: 1.6em;;opacity: 1;color: #fff;text-shadow: 1px 1px 5px rgba(0,0,0,0.9);border: 3px solid #fff;padding: 0.2em 0.2em;border-radius: 50px;width: 300px;left: 9em;cursor: pointer}
+
+
+.con3{width: 1578px;height:100%;position: relative;;overflow: hidden;margin-left: 330px;}
+
+.con4{width: 1578px;height:100%;position: relative;;overflow: hidden;margin-left: 330px;}
+.txt7{position: absolute;top: 500px;text-align:center;font-size: 1.6em;;opacity: 1;color: #fff;text-shadow: 1px 1px 5px rgba(0,0,0,0.9);border: 3px solid #fff;padding: 0.2em 0.2em;border-radius: 50px;width: 300px;left: 9em;cursor: pointer}
+.con11{display: none;}
+.con22{display: none;}
+#gnbMo{display: none;}
+.toggle_btn{display: none;}
+.toggle_btn2{display: none;}
+.none{display: none;}
+.te{display: none;}
+.Vision{display: none;}
+#tnb{display: none;}
+
+
+
+
+
+@media screen and (min-width:140px) and (max-width:800px){
+    
+#left{width:100%;display: block;height: 120px;overflow: hidden;box-sizing: border-box;z-index: 10;position: fixed;}
+.mail{display: none;}    
+.logo img{margin: 0 auto;display: block;position: relative;top: -48px;width: 250px;} 
+.logo{border-bottom: 1px solid #e0e0e0;height: 5px}    
+.menu{display: none;}
+
+#gnbMo{display: block;/*display: none*/;position: fixed;left:-100%;top: 0;background-color:#fff;width: 35%;height: 100%;z-index: 500;transition: all 0.6s;z-index: 9999}
+#gnbMo label{position: absolute;right: 6px;top: 5px;text-indent: -9999px;display: block;width: 30px;height: 30px;
+background-image: url(image/close_btn.png);
+background-color:;
+background-repeat: no-repeat;
+background-size: 20px;
+background-position: center center;
+cursor: pointer;
+}
+.none{display: none;}/*라디오 버튼 안보이게*/
+.toggle_btn{display: block;background: url(image/menu.png) no-repeat;width: 30px;height: 30px;position: absolute;left: 13px;top: 18px;background-size: contain;}
+#toggle1:checked ~ #gnbMo{left:0}/*화면안으로 이동*/
+#toggle2:checked ~ #gnbMo{left: -100%;}/*왼쪽 바깥으로 이동*/
+#m_menu li ul{display: none;}
+#m_menu li ul.on{display: block;}
+#m_menu{position: absolute;width: 77%;height: 100%;background: #fff;top: 50px;}
+#m_menu a{display: block;width: 100%;height: 50px;line-height: 50px;;font-size: 14px;color: #333;opacity: 0.8;transition: all 0.6s;position: relative;left: -20px;text-align: center}
+#m_menu a.m{position: relative;}
+#m_menu a.m.on{color: #333;}
+#m_menu ul a{background: #fff;text-indent: 20px;}
+#m_menu li ul{display: none;border-bottom: none;}
+#m_menu li ul.on{display: block;background: #fff;border-bottom: none;}
+#tnb {display: block;}    
+#tnb li { float:left; width:33.3333%; position: relative;top: 50px;left: -30px;}    
+#tnb li a { display:block; color:#555; background:#fff; line-height: 40px; text-align:center;font-size: 19px;font-family: 'Arimo', sans-serif;}      
+#m_menu a:hover,#m_menu a:active{color: #b94646;}   
+#tnb li a:hover,#tnb li a:active{color: #b94646;}     
+.con1{display: none;}
+.con2{display: none;width: 100%;position:relative;margin-left: 0px;height: 70%;}
+.con2 img{width: 100%;height: 100%;}  
+.con3{display: none;}
+.con4{display: none;}
+    
+.te{display: block;}
+.con11{display: block;width: 100%;position: relative;top: 120px;background: #fff;}
+.con11 img{width: 100%;}
+.con11 h2{font-weight: normal;font-size: 19px;color: #555;position: relative;text-indent: 1.4em}   
+.con11 h1{font-size: 20px;position: relative;top: -17px;font-family: 'Arimo', sans-serif;color: #333;text-indent: 1.2em}    
+.con11 p{width: 89%;font-size: 14px;position: relative;top: -28px;color: #333;margin: 0 auto;display: block;padding-bottom: 1.5em}    
+    
+    
+.con22{display:block;width: 100%;position: relative;top: 100px;height: 80%;background: #fff;}
+.con22 img{width: 100%;height: 50%;}    
+.con22 h2{font-weight: normal;font-size: 24px;color: #b94646;position: relative;text-indent: 1.2em;font-family: 'Arimo', sans-serif;}   
+.con22 p{width: 89%;background: #fff;margin: 0 auto;display: block;font-size: 15px;top: -15px;position: relative;}    
+.con22 button{border: 1px solid #333;padding: 0.2em 0.2em;border-radius: 50px;width: 150px;margin-left: 2em;margin-bottom: 2em;position: relative;top: -0.5em;background: #fff;} 
+.con22 button a{color: #333;}    
+.con22 button:hover,.con22 button:active{border: 2px solid #b94646}  
+    .con22 button a:hover,.con22 button a:active{color: #b94646;}  
+    
+.con33{display:block;width: 100%;position: relative;top: 100px;height: 80%;background: #fff;}
+.con33 img{width: 100%;height: 50%;}    
+.con33 h2{font-weight: normal;font-size: 24px;color: #b94646;position: relative;text-indent: 1.2em;font-family: 'Arimo', sans-serif;}
+.con33 p{width: 89%;background: #fff;margin: 0 auto;display: block;font-size: 15px;top: -15px;position: relative;}    
+.con33 button{border: 1px solid #333;padding: 0.2em 0.2em;border-radius: 50px;width: 150px;margin-left: 2em;margin-bottom: 2em;position: relative;top: -0.5em;background: #fff;} 
+.con33 button a{color: #333;}    
+.con33 button:hover,.con22 button:active{border: 2px solid #b94646} 
+ .con33 button a:hover,.con33 button a:active{color: #b94646;}   
+    
+    
+.con44{display:block;width: 100%;position: relative;top: 100px;height: 80%;background: #fff;}
+.con44 img{width: 100%;height: 50%;}    
+.con44 h2{font-weight: normal;font-size: 20px;color: #b94646;position: relative;font-family: 'Arimo', sans-serif;width: 89%;margin: 0 auto;top: 20px;}
+.con44 p{width: 89%;background: #fff;margin: 0 auto;display: block;font-size: 15px;top: 25px;position: relative;}        
+.con44 button{border: 1px solid #333;padding: 0.2em 0.2em;border-radius: 50px;width: 150px;margin-left: 2em;margin-bottom: 2em;position: relative;top: 2.2em;background: #fff;} 
+.con44 button a{color: #333;}    
+.con44 button:hover,.con22 button:active{border: 2px solid #b94646} 
+.con44 button a:hover,.con44 button a:active{color: #b94646;}    
+    
+ 
+#ft{display:none}
+}    
+    
+    
